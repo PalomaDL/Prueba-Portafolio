@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto:400,700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    cursor: url("../img/tablet-pen.cur"), default;
+}
+
+.primary__color {
+    background-color: #230477;
+}
+
+.secondary__color {
+    background-color: #fbebff;
+}
+
+.secondary__text {
+    color: #fbebff;
+}
+
+.font__righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.hero__section {
+    background-image: url(../img/img-hero-section.jpg);
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: right;
+    padding: 10rem 3rem;
+    text-shadow: 0.125em 0.25em 0.125em #230477;
+}
+
+main {
+    width: 100%;
+}
+
+hr {
+    border: white;
+    height: 1px;
+    background-color: #230477;
+    border-style: dotted;
+}
+
+i {
+    color: #fbebff;
+}
