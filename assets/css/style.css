@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Rock+Salt&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     cursor: url("../img/tablet-pen.cur"), default;}
@@ -7,16 +8,19 @@ body {
     background-color: #230477;
 }
 
-.secondary__color {
-    background-color: #fbebff;
+.img__bground {
+    background-image: url(../img/cross-hatch.jpg);
 }
 
+.img__bground__color {
+    background-image: url(../img/cross-hatch-color.jpg);
+}
 .secondary__text {
     color: #fbebff;
 }
 
-.font__righteous {
-    font-family: 'Righteous', cursive;
+.font__RockSalt {
+    font-family: 'Rock Salt', cursive;
 }
 
 .hero__section {
@@ -39,13 +43,31 @@ hr {
     border-style: dotted;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 i {
     color: #fbebff;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
 }
 #carouselTrabajos {
     margin: auto;
     width: 80%;
 }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23230477' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23230477' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
 #carouselTrabajos .carousel-indicators {
     margin: 10px 0 0;
     overflow: auto;
@@ -65,7 +87,7 @@ i {
 }
 #carouselTrabajos .carousel-indicators li img {
     display: block;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 #carouselTrabajos .carousel-indicators li.active img {
     opacity: 1;
@@ -75,4 +97,5 @@ i {
 }
 #carouselTrabajos .carousel-outer {
     position: relative;
+    width: 100%;
 }

@@ -19,8 +19,8 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top primary__color">
 
-        <a class="navbar-brand font__righteous" href="#"><img src="assets/img/icon.png" alt="icon pdl"
-                style="height: 50px;"> PDL</a>
+        <a class="navbar-brand font__RockSalt" href="#"><img src="assets/img/icon.png" alt="icon pdl"
+                style="height: 50px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
                     <a class="nav-link" href="#trabajos">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -48,11 +48,11 @@
     <header id="inicio" class="hero__section">
         <!-- HERO SECTION
         Imagen, nombre -->
-        <h1 class="font__righteous text-white">Paloma Donoso</h1>
+        <h1 class="font__RockSalt text-white">Paloma Donoso</h1>
     </header>
 
     <main class="mx-auto my-auto">
-        <section id="aboutMe" class="secondary__color px-5">
+        <section id="aboutMe" class="px-5 img__bground d-none d-md-block">
             <!-- ABOUT
             Texto, dos columnas -->
             <h1 class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
@@ -81,7 +81,7 @@
             </div>
         </section>
 
-        <section id="habilidades" class="primary__color secondary__text">
+        <section id="habilidades" class="img__bground__color secondary__text">
             <!-- habilidades ESTUDIOS
             Íconos, 3 columnas -->
             <hr>
@@ -107,7 +107,7 @@
             </div>
         </section>
 
-        <section id="trabajos" class="m-auto secondary__color">
+        <section id="trabajos" class="m-auto img__bground">
             <!-- TRABAJOS
             Trabajos, carousel-->
             <div id="carouselTrabajos" class="carousel slide" data-ride="carousel">
@@ -136,7 +136,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-                <div class="carousel__outer">
+                <div class="carousel__outer d-none d-md-block">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselTrabajos" data-slide-to="0" class="active"><img
                                 src="assets/img/thumb-trab-meetcoffee.png" alt=""></li>
@@ -151,12 +151,10 @@
                     </ol>
                 </div>
             </div>
-
-
         </section>
     </main>
 
-    <aside class="d-flex my-5">
+    <aside class="d-flex my-5" id="contacto">
         <!-- CONTACTO TYPEFORM -->
 
         <a class="typeform-share button mx-auto" href="https://palomad.typeform.com/to/UCoz3d" data-mode="popup"
@@ -165,12 +163,13 @@
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
     </aside>
 
-    <footer class="primary__color secondary__text d-flex flex-row justify-content-end">
-        <div class="icons__footer">
+    <footer class="primary__color secondary__text">
+        <div class="icons__footer d-flex justify-content-around">
             <i class="fab fa-twitter-square fa-3x"></i>
-            <h1 class="font__righteous">PDL</h1> <i class="fab fa-github-square fa-3x"></i>
+            <a href="#inicio"><img src="assets/img/icon.png" alt="icon" style="height: 50px;" data-toggle="tooltip" data-placement="top" title="¡Vamos arriba!"></a>
+            </h1> <i class="fab fa-github-square fa-3x"></i>
         </div>
-        
+
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
