@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous|Roboto:400,700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
-    cursor: url("../img/tablet-pen.cur"), default;
-}
+    cursor: url("../img/tablet-pen.cur"), default;}
 
 .primary__color {
     background-color: #230477;
@@ -30,7 +29,7 @@ body {
 }
 
 main {
-    width: 100%;
+    width:100%;
 }
 
 hr {
@@ -42,4 +41,38 @@ hr {
 
 i {
     color: #fbebff;
+}
+#carouselTrabajos {
+    margin: auto;
+    width: 80%;
+}
+#carouselTrabajos .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+#carouselTrabajos .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carouselTrabajos .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carouselTrabajos .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carouselTrabajos .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carouselTrabajos .carousel-outer {
+    position: relative;
 }
