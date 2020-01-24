@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Rock+Salt&display=swap');
-
 body {
     font-family: 'Roboto', sans-serif;
-    cursor: url("../img/tablet-pen.cur"), default;}
+    cursor: url("../img/tablet-pen.cur"), default;
+}
 
 .primary__color {
     background-color: #230477;
@@ -15,6 +15,7 @@ body {
 .img__bground__color {
     background-image: url(../img/cross-hatch-color.jpg);
 }
+
 .secondary__text {
     color: #fbebff;
 }
@@ -33,7 +34,7 @@ body {
 }
 
 main {
-    width:100%;
+    width: 100%;
 }
 
 hr {
@@ -45,7 +46,7 @@ hr {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 i {
     color: #fbebff;
@@ -55,6 +56,7 @@ i {
 h1 {
     display: inline-block;
 }
+
 #carouselTrabajos {
     margin: auto;
     width: 80%;
@@ -62,11 +64,11 @@ h1 {
 
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23230477' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-   }
-   
-   .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23230477' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-   }
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23230477' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
 
 #carouselTrabajos .carousel-indicators {
     margin: 10px 0 0;
@@ -76,6 +78,7 @@ h1 {
     white-space: nowrap;
     width: 100%;
 }
+
 #carouselTrabajos .carousel-indicators li {
     background-color: transparent;
     -webkit-border-radius: 0;
@@ -85,16 +88,20 @@ h1 {
     margin: 0 !important;
     width: auto;
 }
+
 #carouselTrabajos .carousel-indicators li img {
     display: block;
     opacity: 0.75;
 }
+
 #carouselTrabajos .carousel-indicators li.active img {
     opacity: 1;
 }
+
 #carouselTrabajos .carousel-indicators li:hover img {
     opacity: 0.75;
 }
+
 #carouselTrabajos .carousel-outer {
     position: relative;
     width: 100%;
