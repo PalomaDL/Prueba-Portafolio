@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary__color {
+    background-color: #28A745!important;
+}
+
+.card-title, .card-text, li {
+    font-weight: 300;
+}
+
+li {
+    display: inline;
+}
+
+i {
+    display: inline;
+    color: #707070;
+}
+
+aside {
+    width: 90%;
+    text-align: center;
+}

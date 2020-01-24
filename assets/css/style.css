@@ -1,23 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Rock+Salt&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arvo', serif;
     cursor: url("../img/tablet-pen.cur"), default;
+    background-image: url(../img/cross-hatch.jpg);
 }
 
 .primary__color {
     background-color: #230477;
-}
-
-.img__bground {
-    background-image: url(../img/cross-hatch.jpg);
-}
-
-.img__bground__color {
-    background-image: url(../img/cross-hatch-color.jpg);
-}
-
-.secondary__text {
-    color: #fbebff;
 }
 
 .font__RockSalt {
@@ -34,7 +23,8 @@ body {
 }
 
 main {
-    width: 100%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 hr {
@@ -49,17 +39,27 @@ html {
 }
 
 i {
-    color: #fbebff;
+    color: black;
     display: inline-block;
+}
+
+#divAndroid, #divPC, #divGrafico {
+    display: none;
 }
 
 h1 {
     display: inline-block;
 }
 
-#carouselTrabajos {
+#carouselTrabajos, #carouselTrabajos2 {
+    width: 90%;
     margin: auto;
-    width: 80%;
+    display: inline-block;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: auto;
 }
 
 .carousel-control-prev-icon {
@@ -70,7 +70,7 @@ h1 {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23230477' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-#carouselTrabajos .carousel-indicators {
+#carouselTrabajos .carousel-indicators, #carouselTrabajos2 .carousel-indicators {
     margin: 10px 0 0;
     overflow: auto;
     position: static;
@@ -79,7 +79,7 @@ h1 {
     width: 100%;
 }
 
-#carouselTrabajos .carousel-indicators li {
+#carouselTrabajos .carousel-indicators li, #carouselTrabajos2 .carousel-indicators li {
     background-color: transparent;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -89,20 +89,24 @@ h1 {
     width: auto;
 }
 
-#carouselTrabajos .carousel-indicators li img {
+#carouselTrabajos .carousel-indicators li img, #carouselTrabajos2 .carousel-indicators li img {
     display: block;
     opacity: 0.75;
 }
 
-#carouselTrabajos .carousel-indicators li.active img {
+#carouselTrabajos .carousel-indicators li.active img, #carouselTrabajos2 .carousel-indicators li.active img {
     opacity: 1;
 }
 
-#carouselTrabajos .carousel-indicators li:hover img {
+#carouselTrabajos .carousel-indicators li:hover img, #carouselTrabajos2 .carousel-indicators li:hover img {
     opacity: 0.75;
 }
 
-#carouselTrabajos .carousel-outer {
+#carouselTrabajos .carousel-outer, #carouselTrabajos2 .carousel-outer {
     position: relative;
     width: 100%;
+}
+
+footer i {
+    color: white;
 }

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+    word-wrap: break-word;
+    display: block;
+    font-weight: 500;
+}
+
+.hero__section {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#bg-header {
+    width: 100%;
+    height: auto;
+}
+
+#text-section {
+    /*Contiene el texto y la imagen*/
+    display: inline-block;
+    background-color: #000000;
+    height: 348px;
+    width: auto;
+    padding: 50px;
+    vertical-align: middle;
+}
+
+#text-iguana-1 {
+    /*div texto 1*/
+    margin: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    text-align: justify;
+}
+
+#img-iguana-1 {
+    /* div imagen 1 */
+    vertical-align: middle;
+    height: 100%;
+    display: inline-block;
+}
+
+img {
+  height: 100%;
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+p {
+    color: #FFFFFF;
+    word-wrap: break-word;
+    display: inline-block;
+    font-weight: 300;
+}
+
+#icons-section {
+    /* contiene características e íconos */
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 50px;
+}
+
+.div__icons {
+    display: inline-block;
+    margin: 50px;
+    align-content: center;
+}
+
+i {
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+div {
+    text-align: center
+}
+
+#div-imgs {
+height: 348px;
+width: auto;
+padding: 50px;
+align-content: center;
+align-items: center;
+}
+
+.imgs__bottom {
+    height: 50%;
+    padding: 10px;
+}
+
+footer {
+    color: #000000;
+    background-color: #1E1A13;
+    text-align: center;
+}

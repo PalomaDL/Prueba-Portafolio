@@ -1,0 +1,89 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+/* Fuera del los @media son las cosas que quedan por defecto en las pantallas más pequeñas */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 85%;
+}
+
+.fondo__colorPrimario {
+    background-color: #E83E8C!important;
+}
+
+
+h1, h2 {
+    font-weight: 700;
+    color: #707070;
+}
+
+.row h2, .row p {
+    color: #373A3C;
+}
+
+aside h2 {
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+nav img {
+    /* logo en nav */
+    height: auto;
+    width: 132px;
+}
+
+li a {
+    /* enlaces "ver más" de las cards */
+    display: inline;
+    margin: 0 1rem 0 0;
+}
+
+i {
+    color: #FFFFFF;
+    display: inline;
+}
+
+aside {
+    background-color: #17A2B8;
+}
+
+.icons__aside {
+    background-color: #17A2B8;
+    display: inline-block;
+}
+
+.top__buffer {
+    margin-top: 7%;
+}
+
+footer {
+    height: 184px;
+    text-align: center;
+}
+
+footer img {
+    width: 53px;
+    height: auto;
+    margin: 4%;
+}
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
