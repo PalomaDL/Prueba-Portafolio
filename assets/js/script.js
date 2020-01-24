@@ -2,6 +2,14 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
+$('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+
 function iconPressed(clicked_id) {
   var currentID = clicked_id;
   /* alert(currentID); */
@@ -25,39 +33,3 @@ function iconPressed(clicked_id) {
 
   }
 }
-  /* switch (currentID) {
-case "iconAndroid":
-alert("Android");
-$("#divDefault").hide(fast);
-$("#divPC").hide(fast);
-$("#divGrafico").hide(fast);
-$("divAndroid").show(fast);
-break;
-case "iconPC":
-alert("PC");
-$("#divDefault").hide(fast);
-$("#divPC").show(fast);
-$("#divGrafico").hide(fast);
-$("divAndroid").hide(fast);
-break;
-case "iconDsgn":
-alert("design");
-$("#divDefault").hide(fast);
-$("#divPC").hide(fast);
-$("#divGrafico").show(fast);
-$("divAndroid").hide(fast);
-break;
-default:
-$("#divDefault").show(fast);
-$("#divPC").hide(fast);
-$("#divGrafico").hide(fast);
-$("divAndroid").hide(fast);
-break;
-} */
-
-
-
-/* function iconPressed() {
-    //función que se ejecuta al presionar el botón pre seleccionada
-    document.getElementById("categories").style.display = "none";
-    document.getElementById("categoryPreSeleccionada").style.display = "block"; */

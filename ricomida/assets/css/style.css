@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster&display=swap');
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+
+.text__lobster {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+}
+
+.navbar ul li a {
+    color: #ffffff!important;
+}
+
+.width__75 {
+    width: 75%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+section p {
+    font-size: 20pt;
+}
+
+.card p {
+    font-size: 16pt;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-indicators li {
+    width: 13px!important;
+    height: 13px!important;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.newsletter {
+    display: flex;
+    height: 530px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+footer {
+    height: 127px;
+    padding-top: 40px;
+}

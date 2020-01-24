@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text__title {
+    font-size: 24pt;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+main {
+    text-align: center;
+}
+
+.nav__logo {
+    display: inline-block;
+    filter: invert(1);
+    width: 2em;
+    height: auto;
+    margin: 0 2em 0 3em;
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #000f08;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
+
+.nav__btns {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+li {
+    display: inline-block;
+}
+
+nav ul li {
+    /*sólo estará afectando a las etiquetas <li> dentro de la etiqueta <ul> dentro del <nav> */
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 1em;
+}
+
+svg {
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero__section {
+    margin-top: -41px;
+    text-align: right;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-shadow: 2px 5px 5px #000f08;
+    font-size: 23pt;
+    margin-bottom: 50px;
+}
+
+header h1, header p {
+    color: #ffffff;
+}
+
+section {
+    padding: 50px 10%;
+    color: #ffffff;
+}
+
+#prox-charla {
+    background-color: #a4452c;
+    /* padding: 50px 15%;*/
+}
+
+.img__charla {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.text__charla {
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+aside {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.div__eventos {
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.img__vegan {
+    width: 100%;
+    height: auto;
+}
+
+.div__vegan {
+    padding: 100px 400px;
+    text-align: justify;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #000f08;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+i {
+    color: #ffffff;
+}
