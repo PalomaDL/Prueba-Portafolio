@@ -52,36 +52,20 @@
     </header>
 
     <main class="mx-auto my-auto">
-        <section id="aboutMe" class="px-5 img__bground d-none d-md-block">
+        <section id="aboutMe" class="px-5 d-none d-md-block">
             <!-- ABOUT
             Texto, dos columnas -->
-            <h1 class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
-                neque
-                consectetur, ultrices justo eu, hendrerit lectus.</h1>
-            <hr>
             <div class="row">
+                <div class="col"><img src="assets/img/avatar.png" alt="avatar"></div>
                 <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod
-                        consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed
-                        diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc
-                        cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu,
-                        lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies
-                        sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-                </div>
-                <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod
-                        consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed
-                        diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc
-                        cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu,
-                        lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies
-                        sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                    <div><img src="assets/img/barra.png" alt="barra"></div>
+                    <hr>
+                    <div><img src="assets/img/barra.png" alt="barra"></div>
                 </div>
             </div>
         </section>
 
-        <section id="habilidades" class="img__bground__color secondary__text">
+        <section id="habilidades" class="">
             <!-- habilidades ESTUDIOS
             Íconos, 3 columnas -->
             <hr>
@@ -90,24 +74,38 @@
             Que el fondo del ícono coincida con el fondo del texto -->
             <div class="row d-flex justify-content-around">
                 <div class="col">
-                    <div id="iconAndroid" class="text-right"><i class="fab fa-android fa-5x"></i>
-                        <!-- <button id="buttonSend" onclick="namePressed()">Enviar</button> -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div id="iconAndroid" class="text-right" onClick="iconPressed(this.id)">
+                        <i class="fas fa-mobile-alt fa-5x"></i>
+                        <p>Intro a Android <small>Desafío Latam, 2018</small></p>
                     </div>
-                    <div id="iconJava" class="text-right"><i class="fab fa-java fa-5x"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div id="iconPC" class="text-right" onClick="iconPressed(this.id)"><i
+                            class="fas fa-laptop-code fa-5x"></i>
+                        <p>Analista programador <small>Mil programadores, 2017-2018</small></p>
                     </div>
-                    <div id="iconDsgn" class="text-right"><i class="far fa-object-group fa-5x"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div id="iconDsgn" class="text-right" onClick="iconPressed(this.id)"><i
+                            class="far fa-object-group fa-6x"></i>
+                        <p>Diseño Gráfico <small>Universidad de Chile, 2011-2015</small></p>
                     </div>
                 </div>
                 <div class="col my-auto">
-                    <p">Este texto debe cambiar según selección</p>
+                    <div id="divDefault">Click en un ícono para más info</div>
+                    <div id="divAndroid">
+                        Curso introductorio de desarrollo de aplicaciones android
+                        <div class="d-flex"><i class="fab fa-android fa-5x"></i> <img src="assets/img/material_logo.svg" alt="logo material design" style="width: 80px;"></div>
+                    </div>
+                    <div id="divPC">
+                        Iniciativa gubernamental para minimizar el déficit de personas en TIC
+                        <div><i class="fab fa-java fa-5x"></i> <i class="fas fa-file-code fa-5x"></i> <i class="fas fa-database fa-5x"></i> <i class="fab fa-github fa-5x"></i></div>
+                    </div>
+                    <div id="divGrafico">
+                        Carrera tradicional Diseño mención Gráfico
+                        <div><i class="fab fa-adobe fa-5x"></i> <i class="fas fa-pen-fancy fa-4x"></i> <i class="far fa-newspaper fa-5x"></i> <i class="fab fa-css3-alt fa-5x"></i></div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="trabajos" class="m-auto img__bground">
+        <section id="trabajos" class="m-auto">
             <!-- TRABAJOS
             Trabajos, carousel-->
             <div id="carouselTrabajos" class="carousel slide" data-ride="carousel">
@@ -166,7 +164,8 @@
     <footer class="primary__color secondary__text">
         <div class="icons__footer d-flex justify-content-around">
             <i class="fab fa-twitter-square fa-3x"></i>
-            <a href="#inicio"><img src="assets/img/icon.png" alt="icon" style="height: 50px;" data-toggle="tooltip" data-placement="top" title="¡Vamos arriba!"></a>
+            <a href="#inicio"><img src="assets/img/icon.png" alt="icon" style="height: 50px;" data-toggle="tooltip"
+                    data-placement="top" title="¡Vamos arriba!"></a>
             </h1> <i class="fab fa-github-square fa-3x"></i>
         </div>
 

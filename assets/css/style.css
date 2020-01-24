@@ -1,23 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Rock+Salt&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arvo', serif;
     cursor: url("../img/tablet-pen.cur"), default;}
 
 .primary__color {
     background-color: #230477;
 }
 
-.img__bground {
-    background-image: url(../img/cross-hatch.jpg);
-}
-
-.img__bground__color {
-    background-image: url(../img/cross-hatch-color.jpg);
-}
-.secondary__text {
-    color: #fbebff;
-}
 
 .font__RockSalt {
     font-family: 'Rock Salt', cursive;
@@ -48,8 +38,12 @@ html {
   }
 
 i {
-    color: #fbebff;
+    color:black;
     display: inline-block;
+}
+
+#divAndroid, #divPC, #divGrafico {
+    display: none;
 }
 
 h1 {
